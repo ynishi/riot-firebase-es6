@@ -31,4 +31,4 @@ npm run deploy
 
 ## Licence
 
-* ISC, see LICENSE 
+* Apache2.0, see LICENSE 

@@ -18,12 +18,12 @@ npm install
 vi .firebaserc
 # set firebase project id.
 ```
-* run
+* run(unix like or mac only)
 ```
 # alias to firebase serve
 npm run serve
 ```
-* deploy
+* deploy(unix like or mac only)
 ```
 # alias to firebase deploy
 npm run deploy

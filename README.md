@@ -10,7 +10,7 @@
 * clone repository
 ```
 git clone https://github.com/ynishi/riot-firebase-es6.git 
-cd ...
+cd riot-firebase-es6
 ```
 * setup 
 ```
@@ -18,12 +18,12 @@ npm install
 vi .firebaserc
 # set firebase project id.
 ```
-* run
+* run(unix like or mac only)
 ```
 # alias to firebase serve
 npm run serve
 ```
-* deploy
+* deploy(unix like or mac only)
 ```
 # alias to firebase deploy
 npm run deploy
@@ -31,4 +31,4 @@ npm run deploy
 
 ## Licence
 
-* ISC, see LICENSE 
+* Apache2.0, see LICENSE 

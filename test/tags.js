@@ -1,19 +1,17 @@
 import riot from 'riot'
 
-import '../app/tag/home.tag'
-import '../app/tag/checkFirebase.tag'
-
+import '../app/import_tags'
 import routes from '../app/route.js'
 
-routes.start(true)
+// prepare base document
+var content = document.createElement('content')
+document.body.appendChild(content)
 
 describe('karma-riot specs', function() {
 
   it('mounts home tag', function() {
-    var html = document.createElement('home')
-    document.body.appendChild(html)
-    riot.mount('home')
-    expect(document.querySelector('home > div > p').textContent.indexOf('home'))
+    routes('home')
+    expect(document.querySelector('content > div > p').textContent.indexOf('home'))
       .to.not.be(-1)
   })
   

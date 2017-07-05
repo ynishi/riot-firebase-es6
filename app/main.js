@@ -1,7 +1,6 @@
 import riot from 'riot'
 
-import './tag/home.tag'
-import './tag/checkFirebase.tag'
+import './import_tags.js'
 import routes from './route.js'
 
 riot.mount('checkFirebase')

@@ -11,6 +11,7 @@ module.exports = function (config) {
     files: [
       'https://www.gstatic.com/firebasejs/3.8.0/firebase.js',
       'node_modules/expect.js/index.js',
+      'node_modules/es6-shim/es6-shim.js',
       'test/**/*.js'
                 ],
     preprocessors: {
